@@ -1,10 +1,8 @@
 # Alzheimer's Disease Risk Classifier
 
 A machine learning pipeline predicting Alzheimer's disease diagnosis from
-clinical, lifestyle, and cognitive assessment data — built from scratch using
+clinical, lifestyle, and cognitive assessment data, built from scratch using
 scikit-learn and deployed as a live demo on Hugging Face Spaces.
-
----
 
 ## Dataset
 
@@ -21,7 +19,6 @@ To reproduce this project:
 1. Download the dataset from the link above
 2. Place `alzheimers_disease_data.csv` from the source in the same directory as the notebook
 3. Run all cells top to bottom
----
 
 ## Methodology
 
@@ -42,7 +39,6 @@ model = RandomForestClassifier(n_estimators=100, random_state=42)
 model.fit(X_train, y_train)
 ```
 
----
 
 ## Results
 
@@ -67,7 +63,6 @@ These align exactly with the predictors identified in published Alzheimer's
 literature — the model independently converged on clinically validated markers
 without being told which features mattered.
 
----
 
 ## Live demo
 
@@ -77,13 +72,12 @@ profile and get a model prediction in real time.
 > [Alzheimer's Prediction Model](https://huggingface.co/spaces/Suj1234/alzheimersmodel1234)
 
 
----
+
 
 ## Tools & libraries
 
 Python · scikit-learn · Pandas · NumPy · joblib · Hugging Face Spaces
 
----
 
 ## Files
 
